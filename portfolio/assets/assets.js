@@ -107,9 +107,29 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    { 
+        icon: assets.edu_icon, 
+        iconDark: assets.edu_icon_dark, 
+        title: 'Education', 
+        description: [
+            'Computer Programming & Analysis',
+            'Seneca Polytechnic', 
+            'Expected: Dec 2026', 
+            'GPA: 4.0'
+        ]
+    },
+    { 
+        icon: assets.code_icon, 
+        iconDark: assets.code_icon_dark, 
+        title: 'Skills', 
+        description: [
+            'Full Stack Development', 
+            'OOP',
+            'Software Testing', 
+            'QA Automation'
+        ],
+    },
+    // { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
 ];
 
 export const toolsData = [

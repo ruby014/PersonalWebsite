@@ -19,14 +19,14 @@ const Navbar = () => {
       <Image src={assets.header_bg_color} alt='' className='w-full'/>
     </div>
         <nav className='w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50'>
-            <a href='' className='w-28'>Ruchelle</a>
+            <a href='' className='w-28 text-2xl font-medium font-outfit'>Ruchelle.</a>
 
             <ul className='hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 bg-white shadow-sm bg-opacity-50'>
                 <li><a className='font-Ovo' href='#top'>Home</a></li>
                 <li><a className='font-Ovo' href='#about'>About</a></li>
-                <li><a className='font-Ovo' href='#work'>Work Experience</a></li>
+                <li><a className='font-Ovo' href='#tools'>Tools</a></li>
+                <li><a className='font-Ovo' href='#work'>Work</a></li>
                 <li><a className='font-Ovo' href='#projects'>Projects</a></li>
-                <li><a className='font-Ovo' href='#contact'>Contact me</a></li>
             </ul>
 
             <div className='flex items-center gap-4'>
@@ -52,9 +52,9 @@ const Navbar = () => {
 
                 <li><a className='font-Ovo' onClick={closeMenu} href='#top'>Home</a></li>
                 <li><a className='font-Ovo' onClick={closeMenu} href='#about'>About</a></li>
-                <li><a className='font-Ovo' onClick={closeMenu} href='#work'>Work Experience</a></li>
+                <li><a className='font-Ovo' onClick={closeMenu} href='#tools'>Tools</a></li>
+                <li><a className='font-Ovo' onClick={closeMenu} href='#work'>Work</a></li>
                 <li><a className='font-Ovo' onClick={closeMenu} href='#projects'>Projects</a></li>
-                <li><a className='font-Ovo' onClick={closeMenu} href='#contact'>Contact me</a></li>
             </ul>
         </nav>
     </>
