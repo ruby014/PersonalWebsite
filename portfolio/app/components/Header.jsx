@@ -15,7 +15,7 @@ const Header = () => {
             sequence={[
                 "Hi, I'm Ruchelle!", 
                 3000,
-                "Welcome to my website ☺", 
+                "Welcome to my page ☺", 
                 3000,
             ]}
             wrapper="span"
