@@ -38,10 +38,6 @@ import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import computer from './computer.png'; 
 import computer_dark from './computer_dark.png'; 
 import database from './database.png'; 
-import project_1 from './project-1.png'; 
-import project_2 from './project-2.jpeg'; 
-import project_3 from './project-3.jpeg'; 
-import project_4 from './project-4.jpeg'; 
 
 export const assets = {
     user_image,
@@ -83,11 +79,7 @@ export const assets = {
     right_arrow_bold_dark, 
     computer, 
     computer_dark, 
-    database, 
-    project_1, 
-    project_2, 
-    project_3, 
-    project_4
+    database
 };
 
 export const projectData = [
@@ -99,7 +91,7 @@ export const projectData = [
     {
         title: 'Coffee Cloud Cafe',
         description: 'My very first full stack CRUD application!',
-        bgImage: '/project-2.jpeg',
+        bgImage: '/project-2.jpeg', 
     },
     {
         title: 'ChatTime',
