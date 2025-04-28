@@ -40,6 +40,11 @@ import computer_dark from './computer_dark.png';
 import database from './database.png'; 
 import project1 from './project-1.png'; 
 import project2 from './project-2.jpeg'; 
+import project3 from './project-3.jpeg'; 
+import project4 from './project-4.jpeg'; 
+import project5 from './project-5.png'; 
+import project6 from './project-6.png'; 
+import project7 from './project-7.png'; 
 
 export const assets = {
     user_image,
@@ -83,7 +88,12 @@ export const assets = {
     computer_dark, 
     database, 
     project1, 
-    project2
+    project2, 
+    project3, 
+    project4, 
+    project5, 
+    project6, 
+    project7
 };
 
 export const projectData = [
