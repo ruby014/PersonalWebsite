@@ -38,6 +38,8 @@ import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import computer from './computer.png'; 
 import computer_dark from './computer_dark.png'; 
 import database from './database.png'; 
+import project1 from './project-1.png'; 
+import project2 from './project-2.jpeg'; 
 
 export const assets = {
     user_image,
@@ -79,28 +81,30 @@ export const assets = {
     right_arrow_bold_dark, 
     computer, 
     computer_dark, 
-    database
+    database, 
+    project1, 
+    project2
 };
 
 export const projectData = [
     {
         title: 'Climate Solutions App',
-        description: 'An app where users can share projects that make an impact.',
+        description: 'An app built for changemakers — share your passion projects, connect with others, and make a lasting impact.',
         bgImage: '/project-1.png',
     },
     {
         title: 'Coffee Cloud Cafe',
-        description: 'My very first full stack CRUD application!',
+        description: 'My first full-stack CRUD application — a cozy cafe management app built with love and lots of coffee!',
         bgImage: '/project-2.jpeg', 
     },
     {
         title: 'ChatTime',
-        description: 'My first dive into Python and navigating the complexities of making a chat app.',
+        description: 'A simple real-time chat application built to learn more about Python. Also my first project in exploring the complexities of network communication.',
         bgImage: '/project-3.jpeg',
     },
     {
         title: 'BiteByte',
-        description: 'Designed at my very first hackathon ElleHacks, we created an app to enable diabetic seniors to make healthier decisions.',
+        description: 'Designed at my very first hackathon, ElleHacks, my team and I created an app to enable diabetic seniors to make healthier decisions.',
         bgImage: '/project-4.jpeg',
     },
 ]
