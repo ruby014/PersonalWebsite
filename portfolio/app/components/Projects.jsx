@@ -16,22 +16,30 @@ const Projects = () => {
         {/** project 1*/}
           <div className='flex flex-col bg-white border border-gray-400 rounded-lg overflow-hidden hover:bg-lightHover hover:-translate-y-2 duration-500 hover:shadow-black '>
             {/* cover image of proj */}
-            <div className='w-full h-60 relative'>
+            <div className='w-full h-60 relative group'>
               <Image 
                 src={assets.project1} 
                 alt='' 
                 fill
                 style={{ objectFit: 'cover' }}
-                className='rounded-t-lg'
+                className='rounded-t-lg hover:brightness-25 duration-400 ease-in-out'
               />
+              <div className='hidden group-hover:flex justify-center mt-24 absolute inset-0'> 
+                <a href='#'>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" 
+                    width={80}
+                    className='transition duration-300 ease-in-out group-hover:invert'
+                    />
+                </a>
+              </div>
             </div>
 
             {/* project title, description, tech stack */}
             <div className='flex-1 p-5 font-outfit'>
-              <h2 className='text-2xl font-semibold mb-2'>Climate Solutions App</h2>
-              <p className='text-gray-600 text-sm mb-3'>An app built for changemakers — share your passion projects, connect with others, and make a lasting impact.</p>
+              <h2 className='text-2xl font-semibold mb-3'>Climate Solutions App</h2>
+              <p className='text-gray-600 text-sm mb-5'>An app built for changemakers — share your passion projects, connect with others, and make a lasting impact.</p>
               {/* container to hold the icons */}
-              <div className='flex flex-wrap leading-5 gap-2'>
+              <div className='flex flex-wrap leading-5 gap-3'>
                 {/** icon #1 */}
                 <div className='relative group'>
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" 
