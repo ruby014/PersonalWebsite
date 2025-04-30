@@ -24,13 +24,15 @@ const Projects = () => {
                 style={{ objectFit: 'cover' }}
                 className='rounded-t-lg hover:brightness-25 duration-400 ease-in-out'
               />
-              <div className='hidden group-hover:flex justify-center mt-24 absolute inset-0'> 
-                <a href='#'>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" 
-                    width={80}
-                    className='transition duration-300 ease-in-out group-hover:invert'
-                    />
-                </a>
+              <div className='absolute inset-0 bg-black opacity-0 group-hover:opacity-75 transition-opacity duration-300'>
+                <div className='hidden group-hover:flex justify-center mt-24 absolute inset-0'> 
+                  <a href='#'>
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" 
+                      width={80}
+                      className='transition duration-300 ease-in-out group-hover:invert'
+                      />
+                  </a>
+                </div>
               </div>
             </div>
 
