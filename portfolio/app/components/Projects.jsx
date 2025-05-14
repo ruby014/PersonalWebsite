@@ -132,15 +132,27 @@ const Projects = () => {
         {/** portfolio website project*/}
         <div className='flex flex-col bg-white border border-gray-400 rounded-lg overflow-hidden hover:bg-lightHover hover:-translate-y-2 duration-500 hover:shadow-black '>
             {/* cover image of proj */}
-            <div className='w-full h-60 relative'>
+            <div className='w-full h-60 relative group'>
               <Image 
                 src={assets.project8} 
                 alt='' 
                 fill
                 style={{ objectFit: 'cover' }}
-                className='rounded-t-lg'
+                className='rounded-t-lg hover:brightness-25 duration-400 ease-in-out'
               />
+              <div className='absolute inset-0 bg-black opacity-0 group-hover:opacity-75 transition-opacity duration-300'>
+                <div className='hidden group-hover:flex justify-center mt-24 absolute inset-0'> 
+                  <a href='#'>
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" 
+                      width={80}
+                      className='transition duration-300 ease-in-out group-hover:invert'
+                      />
+                  </a>
+                </div>
+              </div>
             </div>
+
+           
 
             {/* project title, description, tech stack */}
             <div className='flex-1 p-5 font-outfit'>
@@ -199,14 +211,24 @@ const Projects = () => {
         {/** project 2*/}
         <div className='flex flex-col bg-white border border-gray-400 rounded-lg overflow-hidden hover:bg-lightHover hover:-translate-y-2 duration-500 hover:shadow-black '>
             {/* cover image of proj */}
-            <div className='w-full h-60 relative'>
+            <div className='w-full h-60 relative group'>
               <Image 
                 src={assets.project2} 
                 alt='' 
                 fill
                 style={{ objectFit: 'cover' }}
-                className='rounded-t-lg'
+                className='rounded-t-lg hover:brightness-25 duration-400 ease-in-out'
               />
+              <div className='absolute inset-0 bg-black opacity-0 group-hover:opacity-75 transition-opacity duration-300'>
+                <div className='hidden group-hover:flex justify-center mt-24 absolute inset-0'> 
+                  <a href='#'>
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" 
+                      width={80}
+                      className='transition duration-300 ease-in-out group-hover:invert'
+                      />
+                  </a>
+                </div>
+              </div>
             </div>
 
             {/* project title, description, tech stack */}
@@ -329,14 +351,24 @@ const Projects = () => {
         {/** project 3*/}
         <div className='flex flex-col bg-white border border-gray-400 rounded-lg overflow-hidden hover:bg-lightHover hover:-translate-y-2 duration-500 hover:shadow-black '>
             {/* cover image of proj */}
-            <div className='w-full h-60 relative'>
+            <div className='w-full h-60 relative group'>
               <Image 
                 src={assets.project3} 
                 alt='' 
                 fill
                 style={{ objectFit: 'cover' }}
-                className='rounded-t-lg'
+                className='rounded-t-lg hover:brightness-25 duration-400 ease-in-out'
               />
+              <div className='absolute inset-0 bg-black opacity-0 group-hover:opacity-75 transition-opacity duration-300'>
+                <div className='hidden group-hover:flex justify-center mt-24 absolute inset-0'> 
+                  <a href='#'>
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" 
+                      width={80}
+                      className='transition duration-300 ease-in-out group-hover:invert'
+                      />
+                  </a>
+                </div>
+              </div>
             </div>
 
             {/* project title, description, tech stack */}
@@ -410,14 +442,24 @@ const Projects = () => {
         {/** project 5*/}
         <div className='flex flex-col bg-white border border-gray-400 rounded-lg overflow-hidden hover:bg-lightHover hover:-translate-y-2 duration-500 hover:shadow-black '>
             {/* cover image of proj */}
-            <div className='w-full h-60 relative'>
+            <div className='w-full h-60 relative group'>
               <Image 
                 src={assets.project5} 
                 alt='' 
                 fill
                 style={{ objectFit: 'cover' }}
-                className='rounded-t-lg'
+                className='rounded-t-lg hover:brightness-25 duration-400 ease-in-out'
               />
+              <div className='absolute inset-0 bg-black opacity-0 group-hover:opacity-75 transition-opacity duration-300'>
+                <div className='hidden group-hover:flex justify-center mt-24 absolute inset-0'> 
+                  <a href='#'>
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" 
+                      width={80}
+                      className='transition duration-300 ease-in-out group-hover:invert'
+                      />
+                  </a>
+                </div>
+              </div>
             </div>
 
             {/* project title, description, tech stack */}
@@ -444,14 +486,24 @@ const Projects = () => {
         {/** project 6*/}
         <div className='flex flex-col bg-white border border-gray-400 rounded-lg overflow-hidden hover:bg-lightHover hover:-translate-y-2 duration-500 hover:shadow-black '>
             {/* cover image of proj */}
-            <div className='w-full h-60 relative'>
+            <div className='w-full h-60 relative group'>
               <Image 
                 src={assets.project6} 
                 alt='' 
                 fill
                 style={{ objectFit: 'cover' }}
-                className='rounded-t-lg'
+                className='rounded-t-lg hover:brightness-25 duration-400 ease-in-out'
               />
+              <div className='absolute inset-0 bg-black opacity-0 group-hover:opacity-75 transition-opacity duration-300'>
+                <div className='hidden group-hover:flex justify-center mt-24 absolute inset-0'> 
+                  <a href='#'>
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" 
+                      width={80}
+                      className='transition duration-300 ease-in-out group-hover:invert'
+                      />
+                  </a>
+                </div>
+              </div>
             </div>
 
             {/* project title, description, tech stack */}
@@ -502,14 +554,24 @@ const Projects = () => {
         {/** project 7*/}
         <div className='flex flex-col bg-white border border-gray-400 rounded-lg overflow-hidden hover:bg-lightHover hover:-translate-y-2 duration-500 hover:shadow-black '>
             {/* cover image of proj */}
-            <div className='w-full h-60 relative'>
+            <div className='w-full h-60 relative group'>
               <Image 
                 src={assets.project7} 
                 alt='' 
                 fill
                 style={{ objectFit: 'cover' }}
-                className='rounded-t-lg'
+                className='rounded-t-lg hover:brightness-25 duration-400 ease-in-out'
               />
+              <div className='absolute inset-0 bg-black opacity-0 group-hover:opacity-75 transition-opacity duration-300'>
+                <div className='hidden group-hover:flex justify-center mt-24 absolute inset-0'> 
+                  <a href='#'>
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" 
+                      width={80}
+                      className='transition duration-300 ease-in-out group-hover:invert'
+                      />
+                  </a>
+                </div>
+              </div>
             </div>
 
             {/* project title, description, tech stack */}
