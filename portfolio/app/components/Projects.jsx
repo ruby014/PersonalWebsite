@@ -129,6 +129,73 @@ const Projects = () => {
             </div>
           </div> {/** project end */}
 
+        {/** portfolio website project*/}
+        <div className='flex flex-col bg-white border border-gray-400 rounded-lg overflow-hidden hover:bg-lightHover hover:-translate-y-2 duration-500 hover:shadow-black '>
+            {/* cover image of proj */}
+            <div className='w-full h-60 relative'>
+              <Image 
+                src={assets.project8} 
+                alt='' 
+                fill
+                style={{ objectFit: 'cover' }}
+                className='rounded-t-lg'
+              />
+            </div>
+
+            {/* project title, description, tech stack */}
+            <div className='flex-1 p-5 font-outfit'>
+              <h2 className='text-2xl font-semibold mb-2'>Portfolio</h2>
+              <p className='text-gray-600 text-sm mb-3'>A portfolio of my experiences, accompanied by a cute cat friend.</p>
+              {/* container to hold the icons */}
+              <div className='flex flex-wrap leading-5 gap-2'>
+                {/** icon #1 */}
+                <div className='relative group'>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" 
+                width={30}/>
+                    <div className="absolute bottom-full mb-2 hidden group-hover:flex items-center justify-centerz-10">
+                        <span className="whitespace-nowrap bg-gray-200 text-xs rounded-md py-1 px-2 text-black font-bold shadow-md dark:bg-gray-500 dark:text-white">
+                        Next.js
+                        </span>
+                    </div>
+                </div>
+
+                {/** icon #2 */}
+                <div className='relative group'>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" 
+                width={30}/>
+                    <div className="absolute bottom-full mb-2 hidden group-hover:flex items-center justify-centerz-10">
+                        <span className="whitespace-nowrap bg-gray-200 text-xs rounded-md py-1 px-2 text-black font-bold shadow-md dark:bg-gray-500 dark:text-white">
+                        React
+                        </span>
+                    </div>
+                </div>
+
+                {/** icon #3 */}
+                <div className='relative group'>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" 
+                width={30}/>
+                    <div className="absolute bottom-full mb-2 hidden group-hover:flex items-center justify-centerz-10">
+                        <span className="whitespace-nowrap bg-gray-200 text-xs rounded-md py-1 px-2 text-black font-bold shadow-md dark:bg-gray-500 dark:text-white">
+                        Tailwind
+                        </span>
+                    </div>
+                </div>
+
+                {/** icon #4 */}
+                <div className='relative group'>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" 
+                width={30}/>
+                    <div className="absolute bottom-full mb-2 hidden group-hover:flex items-center justify-centerz-10">
+                        <span className="whitespace-nowrap bg-gray-200 text-xs rounded-md py-1 px-2 text-black font-bold shadow-md dark:bg-gray-500 dark:text-white">
+                        Javascript
+                        </span>
+                    </div>
+                </div>                
+                
+            </div>
+            </div>
+          </div> {/** project end */}
+
         {/** project 2*/}
         <div className='flex flex-col bg-white border border-gray-400 rounded-lg overflow-hidden hover:bg-lightHover hover:-translate-y-2 duration-500 hover:shadow-black '>
             {/* cover image of proj */}
