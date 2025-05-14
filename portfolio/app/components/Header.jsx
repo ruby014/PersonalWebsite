@@ -11,6 +11,7 @@ const Header = () => {
         </div>
         <h3 className='flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo'>
         {/* Hi, I'm Ruchelle! <Image src={assets.hand_icon} alt='' className='w-6'/> */}
+        <br></br><br></br>
             <TypeAnimation 
             sequence={[
                 "Hi, I'm Ruchelle!", 

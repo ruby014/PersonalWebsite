@@ -45,6 +45,9 @@ import project4 from './project-4.jpeg';
 import project5 from './project-5.png'; 
 import project6 from './project-6.png'; 
 import project7 from './project-7.png'; 
+import bear from './bear.png';
+import catheart from './cat-heart.png'; 
+import catback from './cat-back.png';
 
 export const assets = {
     user_image,
@@ -93,7 +96,10 @@ export const assets = {
     project4, 
     project5, 
     project6, 
-    project7
+    project7, 
+    bear, 
+    catheart, 
+    catback
 };
 
 export const projectData = [

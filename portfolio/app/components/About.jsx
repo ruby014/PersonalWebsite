@@ -1,10 +1,12 @@
 import { assets, infoList } from '@/assets/assets'
 import Image from 'next/image'
 import React from 'react'
+import CustomCursor from './CustomCursor'
 
 const About = () => {
   return (
     <div id='about' className='w-full px-[12%] py-10 scroll-mt-20'>
+        <CustomCursor/>
         <h4 className='text-center mb-2 text-lg font-ovo'>Introduction</h4>
         <h2 className='text-center text-5xl font-ovo'>About me</h2>
         <div className='flex w-full flex-col lg:flex-row items-center gap-20 my-20'>
@@ -37,6 +39,7 @@ const About = () => {
                 </ul>
             </div>
         </div>
+        
     </div>
   )
 }
