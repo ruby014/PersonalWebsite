@@ -48,7 +48,9 @@ import project7 from './project-7.png';
 import bear from './bear.png';
 import catheart from './cat-heart.png'; 
 import catback from './cat-back.png';
-import project8 from './portfolio.png'
+import project8 from './portfolio.png'; 
+import hoppycat from './hoppy-cat.gif';
+import byecat from './bye-cat.gif';
 
 export const assets = {
     user_image,
@@ -102,6 +104,8 @@ export const assets = {
     bear, 
     catheart, 
     catback,
+    hoppycat, 
+    byecat
 };
 
 export const projectData = [
