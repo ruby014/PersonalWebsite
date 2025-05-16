@@ -29,7 +29,7 @@ const Navbar = () => {
     <>
     <div className='fixed top-0 right-0 w-11/12 -z-10 translate-y-[-80%]'>
     </div>
-        <nav className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50 ${isScroll ? "bg-white/50 backdrop-blur-lg shadow-sm" : "" }`}>
+        <nav className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50 ${isScroll ? "bg-pink-50/50 backdrop-blur-lg shadow-sm" : "bg-pink-50" }`}>
             <a href='' className='w-28 text-2xl font-medium font-outfit'>Ruchelle.</a>
 
             <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${isScroll ? "" : "bg-white shadow-sm bg-opacity-50" }`}>
