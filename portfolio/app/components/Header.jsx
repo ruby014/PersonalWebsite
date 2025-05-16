@@ -12,7 +12,6 @@ const Header = () => {
             <Image src={assets.profile_img} alt='' className='rounded-full w-32'/>
         </div>
         <h3 className='flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo'>
-        {/* Hi, I'm Ruchelle! <Image src={assets.hand_icon} alt='' className='w-6'/> */}
         <br></br><br></br>
             <TypeAnimation 
             sequence={[
@@ -33,9 +32,22 @@ const Header = () => {
             Carrying a unique blend of experience from healthcare to tech — I enjoy building impactful and user-focused software.
         </p>
         <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
-            <a href='#contact' className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2 font-outfit text-base hover:bg-gray-700'>
+            <a href='#contact' className='group px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2 font-outfit text-base hover:bg-[#FFFFFF] hover:text-black hover:border-gray-500'>
                 contact me
-                <Image src={assets.right_arrow_white} alt='' className='w-4'/>
+                <span className='relative w-5 h-5'>
+                <Image src={assets.phone}
+                alt='' 
+                width={20}
+                height={20}
+                className='absolute inset-0 opacity-100 group-hover:opacity-0 filter invert'/>
+                <Image 
+                src='https://www.svgrepo.com/show/521128/email-1.svg'
+                alt=''
+                width={20}
+                height={20}
+                className='absolute inset-0 opacity-0 group-hover:opacity-100'
+                />
+                </span>
             </a>
             <a href='/ruchelle_baybayan_resume.pdf' download className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 font-outfit text-base hover:bg-lightHover'>
                 my resume
