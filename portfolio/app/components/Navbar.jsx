@@ -28,7 +28,6 @@ const Navbar = () => {
   return (
     <>
     <div className='fixed top-0 right-0 w-11/12 -z-10 translate-y-[-80%]'>
-      <Image src={assets.header_bg_color} alt='' className='w-full'/>
     </div>
         <nav className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50 ${isScroll ? "bg-white/50 backdrop-blur-lg shadow-sm" : "" }`}>
             <a href='' className='w-28 text-2xl font-medium font-outfit'>Ruchelle.</a>
@@ -36,19 +35,33 @@ const Navbar = () => {
             <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${isScroll ? "" : "bg-white shadow-sm bg-opacity-50" }`}>
                 <li><a className='font-Ovo' href='#top'>Home</a></li>
                 <li><a className='font-Ovo' href='#about'>About</a></li>
-                <li><a className='font-Ovo' href='#work'>Hobbies</a></li>
                 <li><a className='font-Ovo' href='#tools'>Tools</a></li>
                 <li><a className='font-Ovo' href='#work'>Work</a></li>
                 <li><a className='font-Ovo' href='#projects'>Projects</a></li>
             </ul>
 
-            <div className='flex items-center gap-4'>
-                <button>
-                  <Image src={assets.moon_icon} alt='' className='w-6'/>
-                </button>
+            <div className='flex items-center gap-6'>
+              
 
-                <a href='#contact' className='hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4 font-Ovo'>Contact <Image src={assets.arrow_icon}
-                className='w-3'alt=''/></a>
+                {/** icon #1 */}
+                <div className='relative group'>
+                  <a href='https://www.linkedin.com/in/ruby014/'>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" 
+                      width={30}/>
+                  </a>
+                </div> 
+                <div className='relative group'>
+                  <a href='https://github.com/ruby014'>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" 
+                      width={30}/>
+                  </a>
+                </div> 
+                <div className='relative group'>
+                  <a href='mailto:ruchelle.bay@gmail.com'>
+                    <img src="https://www.gstatic.com/marketing-cms/assets/images/66/ac/14b165e647fd85c824bfbe5d6bc5/gmail.webp=s96-fcrop64=1,00000000ffffffff-rw" 
+                      width={30}/>
+                  </a>
+                </div> 
 
                 <button className='block md:hidden ml-3' onClick={openMenu}>
                   <Image src={assets.menu_black} alt='' className='w-6'/>
