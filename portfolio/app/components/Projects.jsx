@@ -39,7 +39,7 @@ const Projects = () => {
             {/* project title, description, tech stack */}
             <div className='flex-1 p-5 font-outfit'>
               <h2 className='text-2xl font-semibold mb-3'>Climate Solutions App</h2>
-              <p className='text-gray-600 text-sm mb-5'>An app built for changemakers — share your passion projects, connect with others, and make a lasting impact.</p>
+              <p className='text-gray-600 text-sm mb-5'>Let's fight climate change together! Share your passion projects, connect with others, and make a lasting impact.</p>
               {/* container to hold the icons */}
               <div className='flex flex-wrap leading-5 gap-3'>
                 {/** icon #1 */}
@@ -234,7 +234,7 @@ const Projects = () => {
             {/* project title, description, tech stack */}
             <div className='flex-1 p-5 font-outfit'>
               <h2 className='text-2xl font-semibold mb-2'>Coffee Cloud Cafe</h2>
-              <p className='text-gray-600 text-sm mb-3'>My first full-stack CRUD application — a cozy cafe management app built with love and lots of coffee!</p>
+              <p className='text-gray-600 text-sm mb-3'>My first ever full-stack application — a cozy cafe management app built with love and lots of coffee!</p>
               {/* container to hold the icons */}
               <div className='flex flex-wrap leading-5 gap-2'>
                 {/** icon #1 */}
@@ -496,7 +496,7 @@ const Projects = () => {
               />
               <div className='absolute inset-0 bg-black opacity-0 group-hover:opacity-75 transition-opacity duration-300'>
                 <div className='hidden group-hover:flex justify-center mt-24 absolute inset-0'> 
-                  <a href='#'>
+                  <a href='https://github.com/ruby014/JazzCafe'>
                       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" 
                       width={80}
                       className='transition duration-300 ease-in-out group-hover:invert'
@@ -509,7 +509,7 @@ const Projects = () => {
             {/* project title, description, tech stack */}
             <div className='flex-1 p-5 font-outfit'>
               <h2 className='text-2xl font-semibold mb-2'>Jazz Cafe</h2>
-              <p className='text-gray-600 text-sm mb-3'>Explore jazz artists, their songs, and music video links with this interactive web app.</p>
+              <p className='text-gray-600 text-sm mb-3'>Explore three of my favourite modern jazz/pop artists, their songs, and music video links through this interactive web app built with RESTful APIs.</p>
               {/* container to hold the icons */}
               <div className='flex flex-wrap leading-5 gap-2'>
                 {/** icon #1 */}
@@ -564,11 +564,12 @@ const Projects = () => {
               />
               <div className='absolute inset-0 bg-black opacity-0 group-hover:opacity-75 transition-opacity duration-300'>
                 <div className='hidden group-hover:flex justify-center mt-24 absolute inset-0'> 
-                  <a href='#'>
-                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" 
-                      width={80}
-                      className='transition duration-300 ease-in-out group-hover:invert'
-                      />
+                  <a href='https://www.youtube.com/watch?v=LplgxGOsBr4'>
+                  <svg 
+                  className='w-20 h-20 transition duration-300 ease-in-out group-hover:invert'fill="currentColor"
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"
+                  ></path></svg>
                   </a>
                 </div>
               </div>
@@ -577,7 +578,7 @@ const Projects = () => {
             {/* project title, description, tech stack */}
             <div className='flex-1 p-5 font-outfit'>
               <h2 className='text-2xl font-semibold mb-2'>BiteByte</h2>
-              <p className='text-gray-600 text-sm mb-3'>Designed at my first hackathon, ElleHacks, my team and I created an app to enable diabetic seniors to make healthier decisions.</p>
+              <p className='text-gray-600 text-sm mb-3'>Designed at my first hackathon, ElleHacks, my very wonderful and sleep deprived teammates and I created a wireframe for an app that enables diabetic seniors to make healthier decisions.</p>
               {/* container to hold the icons */}
               <div className='flex flex-wrap leading-5 gap-2'>
                 {/** icon #1 */}
@@ -594,7 +595,6 @@ const Projects = () => {
             </div>
             </div>
           </div> {/** project end */}
-
       </div>
     </div>
   )
