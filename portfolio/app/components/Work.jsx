@@ -87,6 +87,7 @@ const Work = () => {
                 {/** icon #4 */}
                 <div className='relative group'>
                     <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" 
+                    alt=""
                     width={30}
                     height={30}/>
     
@@ -103,6 +104,7 @@ const Work = () => {
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/selenium/selenium-original.svg" 
                     width={30}
                     height={30}
+                    alt=""
                     />
           
                     <div className="absolute bottom-full mb-2 hidden group-hover:flex items-center justify-centerz-10">
@@ -116,6 +118,7 @@ const Work = () => {
                 <div className='relative group'>
                     <img 
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" 
+                    alt=""
                     width={30}/>
           
                     <div className="absolute bottom-full mb-2 hidden group-hover:flex items-center justify-centerz-10">

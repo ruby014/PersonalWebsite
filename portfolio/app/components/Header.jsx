@@ -10,7 +10,10 @@ const Header = () => {
         <div>
             <br></br>
             <br></br>
-            <Image src={assets.profile_img} alt='' className='rounded-full w-32'/>
+            <Image 
+            src={assets.profile_img} 
+            alt='' 
+            className='rounded-full w-32'/>
         </div>
         <h3 className='flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo'>
         <br></br><br></br>
@@ -50,12 +53,7 @@ const Header = () => {
                 />
                 </span>
             </a>
-            {/* <a href='/ruchelle_baybayan_resume.pdf' download className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 font-outfit text-base hover:bg-lightHover'>
-                my resume
-                <Image src={assets.download_icon} alt='' className='w-4'/>
-            </a> */}
             <Progress />
-        
         </div>
     </div>
   )

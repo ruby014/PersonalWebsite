@@ -3,7 +3,6 @@ import About from "./components/About";
 import EasterEgg from "./components/EasterEgg";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
-import Progress from "./components/Progress";
 import Projects from "./components/Projects";
 import Tools from "./components/Tools";
 import Work from "./components/Work";

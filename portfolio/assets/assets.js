@@ -45,7 +45,6 @@ import project4 from './project-4.jpeg';
 import project5 from './project-5.png'; 
 import project6 from './project-6.png'; 
 import project7 from './project-7.png'; 
-import bear from './bear.png';
 import catheart from './cat-heart.png'; 
 import catback from './cat-back.png';
 import project8 from './portfolio.png'; 
@@ -111,7 +110,6 @@ export const assets = {
     project6, 
     project7, 
     project8,
-    bear, 
     catheart, 
     catback,
     hoppycat, 
