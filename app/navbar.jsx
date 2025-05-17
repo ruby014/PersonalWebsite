@@ -77,11 +77,11 @@ const Navbar = () => {
                   <Image src={assets.close_black} alt='' className='w-5 cursor-pointer'/>
                 </div>
 
-                <li><a className='font-Ovo' onClick={closeMenu} href='#top'>Home</a></li>
-                <li><a className='font-Ovo' onClick={closeMenu} href='#about'>About</a></li>
-                <li><a className='font-Ovo' onClick={closeMenu} href='#tools'>Tools</a></li>
-                <li><a className='font-Ovo' onClick={closeMenu} href='#work'>Work</a></li>
-                <li><a className='font-Ovo' onClick={closeMenu} href='#projects'>Projects</a></li>
+                <li><a className='font-Ovo hover:bg-gray-100 block rounded p-1' onClick={closeMenu} href='#top'>Home</a></li>
+                <li><a className='font-Ovo hover:bg-gray-100 block rounded p-1' onClick={closeMenu} href='#about'>About</a></li>
+                <li><a className='font-Ovo hover:bg-gray-100 block rounded p-1' onClick={closeMenu} href='#tools'>Tools</a></li>
+                <li><a className='font-Ovo hover:bg-gray-100 block rounded p-1' onClick={closeMenu} href='#work'>Work</a></li>
+                <li><a className='font-Ovo hover:bg-gray-100 block rounded p-1' onClick={closeMenu} href='#projects'>Projects</a></li>
             </ul>
         </nav>
     </>
