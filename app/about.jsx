@@ -1,7 +1,7 @@
 import { assets, infoList } from '@/assets/assets'
 import Image from 'next/image'
 import React from 'react'
-import CustomCursor from './CustomCursor'
+import CustomCursor from './customcursor'
 
 const About = () => {
   return (

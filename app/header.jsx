@@ -2,7 +2,7 @@ import { assets } from '@/assets/assets'
 import Image from 'next/image'
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
-import Progress from './Progress'
+import Progress from './progress'
 
 const Header = () => {
   return (
