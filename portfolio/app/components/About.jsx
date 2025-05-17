@@ -1,4 +1,4 @@
-import { assets, infoList } from '@/public/assets/assets'
+import { assets, infoList } from '@/assets/assets'
 import Image from 'next/image'
 import React from 'react'
 import CustomCursor from './CustomCursor'

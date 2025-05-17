@@ -1,4 +1,4 @@
-import { assets } from "@/public/assets/assets";
+import { assets } from "@/assets/assets";
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 

@@ -1,7 +1,7 @@
 'use client'
 import { useState } from 'react'
 import Image from 'next/image'
-import { assets } from '@/public/assets/assets'
+import { assets } from '@/assets/assets'
 
 const Progress = () => {
   const [showModal, setShowModal] = useState(false)

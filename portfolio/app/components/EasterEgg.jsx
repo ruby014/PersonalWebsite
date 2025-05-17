@@ -2,7 +2,7 @@
 import { useState } from 'react'
 import confetti from 'canvas-confetti'
 import Image from 'next/image'
-import { assets } from '@/public/assets/assets'
+import { assets } from '@/assets/assets'
 
 const EasterEgg = () => {
   const [showModal, setShowModal] = useState(false)
