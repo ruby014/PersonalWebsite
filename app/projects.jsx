@@ -520,7 +520,7 @@ const Projects = () => {
             {/* project title, description, tech stack */}
             <div className='flex-1 p-5 font-outfit'>
               <h2 className='text-2xl font-semibold mb-2'>Jazz Cafe</h2>
-              <p className='text-gray-600 text-sm mb-3'>Explore three of my favourite modern jazz/pop artists, their songs, and music video links through this interactive web app built with RESTful APIs.</p>
+              <p className='text-gray-600 text-sm mb-3'>Explore three of my favourite modern jazz/pop artists, their songs, and music video links through this interactive web app built with HTML/CSS and Vanilla JS.</p>
               {/* container to hold the icons */}
               <div className='flex flex-wrap leading-5 gap-2'>
                 {/** icon #1 */}
