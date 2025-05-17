@@ -1,6 +1,5 @@
 'use client'
 import About from "./components/About";
-import Contact from "./components/Contact";
 import EasterEgg from "./components/EasterEgg";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
@@ -17,7 +16,6 @@ export default function Home() {
     <Tools />
     <Work />
     <Projects />
-    <Contact/>
     <EasterEgg />
     </>
   );
