@@ -24,17 +24,26 @@ const Projects = () => {
                 style={{ objectFit: 'cover' }}
                 className='rounded-t-lg hover:brightness-25 duration-400 ease-in-out'
               />
-              <div className='absolute inset-0 bg-black opacity-0 group-hover:opacity-75 transition-opacity duration-300'>
-                <div className='hidden group-hover:flex justify-center mt-24 absolute inset-0'> 
-                  <a href='https://github.com/ruby014/ClimateSolutionsApp'>
-                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" 
-                      width={80}
-                      className='transition duration-300 ease-in-out group-hover:invert'
-                      />
-                  </a>
-                </div>
+              
+              <div className="absolute inset-0 group-hover:bg-black group-hover:opacity-80 transition-opacity duration-300 z-0"></div>
+              <div className="hidden group-hover:flex justify-center mt-24 absolute inset-0 gap-10 z-10">
+                <a href="https://github.com/ruby014/ClimateSolutionsApp">
+                  <img 
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" 
+                    width={80}
+                    alt=''
+                    className="transition duration-300 ease-in-out group-hover:invert hover:bg-white p-4 hover:rounded"/>
+                </a>
+                <a href="https://climate-solutions-app.vercel.app/">
+                  <img 
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original-wordmark.svg"
+                    width={80}
+                    alt=''
+                    className="transition duration-300 ease-in-out group-hover:invert hover:bg-white p-4 hover:rounded"
+                  />
+                </a>               
               </div>
-            </div>
+            </div>                   
 
             {/* project title, description, tech stack */}
             <div className='flex-1 p-5 font-outfit'>
@@ -140,24 +149,23 @@ const Projects = () => {
                 style={{ objectFit: 'cover' }}
                 className='rounded-t-lg hover:brightness-25 duration-400 ease-in-out'
               />
-              <div className='absolute inset-0 bg-black opacity-0 group-hover:opacity-75 transition-opacity duration-300'>
-                <div className='hidden group-hover:flex justify-center mt-24 absolute inset-0'> 
-                  <a href='https://github.com/ruby014/PersonalWebsite'>
-                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" 
-                      width={80}
-                      className='transition duration-300 ease-in-out group-hover:invert'
-                      />
-                  </a>
-                </div>
+              
+              <div className="absolute inset-0 group-hover:bg-black group-hover:opacity-80 transition-opacity duration-300 z-0"></div>
+              <div className="hidden group-hover:flex justify-center mt-24 absolute inset-0 gap-10 z-10">
+                <a href="https://github.com/ruby014/PersonalWebsite">
+                  <img 
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" 
+                    width={80}
+                    alt=''
+                    className="transition duration-300 ease-in-out group-hover:invert hover:bg-white p-4 hover:rounded"/>
+                </a>            
               </div>
             </div>
-
-           
 
             {/* project title, description, tech stack */}
             <div className='flex-1 p-5 font-outfit'>
               <h2 className='text-2xl font-semibold mb-2'>Portfolio</h2>
-              <p className='text-gray-600 text-sm mb-3'>A portfolio of my experiences, accompanied by a cute cat friend.</p>
+              <p className='text-gray-600 text-sm mb-3'>A portfolio of my experiences, accompanied by cute cat friends.</p>
               {/* container to hold the icons */}
               <div className='flex flex-wrap leading-5 gap-2'>
                 {/** icon #1 */}
@@ -219,15 +227,16 @@ const Projects = () => {
                 style={{ objectFit: 'cover' }}
                 className='rounded-t-lg hover:brightness-25 duration-400 ease-in-out'
               />
-              <div className='absolute inset-0 bg-black opacity-0 group-hover:opacity-75 transition-opacity duration-300'>
-                <div className='hidden group-hover:flex justify-center mt-24 absolute inset-0'> 
-                  <a href='https://github.com/ruby014/CoffeeCloudCafe'>
-                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" 
-                      width={80}
-                      className='transition duration-300 ease-in-out group-hover:invert'
-                      />
-                  </a>
-                </div>
+
+              <div className="absolute inset-0 group-hover:bg-black group-hover:opacity-80 transition-opacity duration-300 z-0"></div>
+              <div className="hidden group-hover:flex justify-center mt-24 absolute inset-0 gap-10 z-10">
+                <a href="https://github.com/ruby014/CoffeeCloudCafe">
+                  <img 
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" 
+                    width={80}
+                    alt=''
+                    className="transition duration-300 ease-in-out group-hover:invert hover:bg-white p-4 hover:rounded"/>
+                </a>            
               </div>
             </div>
 
@@ -359,15 +368,16 @@ const Projects = () => {
                 style={{ objectFit: 'cover' }}
                 className='rounded-t-lg hover:brightness-25 duration-400 ease-in-out'
               />
-              <div className='absolute inset-0 bg-black opacity-0 group-hover:opacity-75 transition-opacity duration-300'>
-                <div className='hidden group-hover:flex justify-center mt-24 absolute inset-0'> 
-                  <a href='https://github.com/ruby014/ChatTime'>
-                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" 
-                      width={80}
-                      className='transition duration-300 ease-in-out group-hover:invert'
-                      />
-                  </a>
-                </div>
+              
+              <div className="absolute inset-0 group-hover:bg-black group-hover:opacity-80 transition-opacity duration-300 z-0"></div>
+              <div className="hidden group-hover:flex justify-center mt-24 absolute inset-0 gap-10 z-10">
+                <a href="https://github.com/ruby014/ChatTime">
+                  <img 
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" 
+                    width={80}
+                    alt=''
+                    className="transition duration-300 ease-in-out group-hover:invert hover:bg-white p-4 hover:rounded"/>
+                </a>            
               </div>
             </div>
 
@@ -450,15 +460,16 @@ const Projects = () => {
                 style={{ objectFit: 'cover' }}
                 className='rounded-t-lg hover:brightness-25 duration-400 ease-in-out'
               />
-              <div className='absolute inset-0 bg-black opacity-0 group-hover:opacity-75 transition-opacity duration-300'>
-                <div className='hidden group-hover:flex justify-center mt-24 absolute inset-0'> 
-                  <a href='#'>
-                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" 
-                      width={80}
-                      className='transition duration-300 ease-in-out group-hover:invert'
-                      />
-                  </a>
-                </div>
+              
+              <div className="absolute inset-0 group-hover:bg-black group-hover:opacity-80 transition-opacity duration-300 z-0"></div>
+              <div className="hidden group-hover:flex justify-center mt-24 absolute inset-0 gap-10 z-10">
+                <a href="https://github.com/ruby014/DictionaryApplication">
+                  <img 
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" 
+                    width={80}
+                    alt=''
+                    className="transition duration-300 ease-in-out group-hover:invert hover:bg-white p-4 hover:rounded"/>
+                </a>            
               </div>
             </div>
 
@@ -494,15 +505,15 @@ const Projects = () => {
                 style={{ objectFit: 'cover' }}
                 className='rounded-t-lg hover:brightness-25 duration-400 ease-in-out'
               />
-              <div className='absolute inset-0 bg-black opacity-0 group-hover:opacity-75 transition-opacity duration-300'>
-                <div className='hidden group-hover:flex justify-center mt-24 absolute inset-0'> 
-                  <a href='https://github.com/ruby014/JazzCafe'>
-                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" 
-                      width={80}
-                      className='transition duration-300 ease-in-out group-hover:invert'
-                      />
-                  </a>
-                </div>
+              <div className="absolute inset-0 group-hover:bg-black group-hover:opacity-80 transition-opacity duration-300 z-0"></div>
+              <div className="hidden group-hover:flex justify-center mt-24 absolute inset-0 gap-10 z-10">
+                <a href="https://github.com/ruby014/JazzCafe">
+                  <img 
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" 
+                    width={80}
+                    alt=''
+                    className="transition duration-300 ease-in-out group-hover:invert hover:bg-white p-4 hover:rounded"/>
+                </a>            
               </div>
             </div>
 
@@ -595,6 +606,18 @@ const Projects = () => {
             </div>
             </div>
           </div> {/** project end */}
+      </div>
+
+      <div className='w-full px-[12%] py-10 scroll-mt-20 mt-5'>
+        <h2 className='text-center text-5xl font-ovo'>Thanks for stopping by!</h2>
+        <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-ovo'>Come back anytime — my digital door is always open :)</p>
+        <br></br>
+        <div className="flex justify-center items-center">
+          <Image
+          src={assets.byecat}
+          alt=""
+          />
+        </div>
       </div>
     </div>
   )
