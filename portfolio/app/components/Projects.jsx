@@ -1,4 +1,4 @@
-import { assets, projectData } from '@/assets/assets'
+import { assets, projectData } from '@/public/assets/assets'
 import Image from 'next/image'
 import React from 'react'
 
@@ -610,7 +610,6 @@ const Projects = () => {
 
       <div className='w-full px-[12%] py-10 scroll-mt-20 mt-5'>
         <h2 className='text-center text-5xl font-ovo'>Thanks for stopping by!</h2>
-        <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-ovo'>Come back anytime — my digital door is always open :)</p>
         <br></br>
         <div className="flex justify-center items-center">
           <Image

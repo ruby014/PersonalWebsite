@@ -60,6 +60,7 @@ import testexecute from './testexecute.png';
 import testcomplete from './testcomplete.png'; 
 import smartgit from './smartgit.svg';
 import whitemail from './white_mail.png';
+import exercisecat from './exercisecat.gif'; 
 
 export const assets = {
     user_image,
@@ -123,7 +124,8 @@ export const assets = {
     testexecute,
     testcomplete, 
     smartgit, 
-    whitemail
+    whitemail, 
+    exercisecat
 };
 
 export const projectData = [

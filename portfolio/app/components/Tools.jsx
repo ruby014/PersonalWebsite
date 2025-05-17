@@ -1,4 +1,4 @@
-import { assets } from '@/assets/assets'
+import { assets } from '@/public/assets/assets'
 import Image from 'next/image'
 import React from 'react'
 
@@ -71,6 +71,9 @@ const Tools = () => {
                     <li>Jira</li>
                     <li>Figma</li>
                     <li>Selenium</li>
+                    <li>TestComplete</li>
+                    <li>TestExecute</li>
+                    <li>TestRail</li>
                 </ul>
             </div>
         </div>

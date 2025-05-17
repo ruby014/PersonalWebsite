@@ -1,33 +1,24 @@
 'use client'
 import { useState } from 'react'
-import confetti from 'canvas-confetti'
 import Image from 'next/image'
 import { assets } from '@/public/assets/assets'
 
-const EasterEgg = () => {
+const Progress = () => {
   const [showModal, setShowModal] = useState(false)
 
   const handleClick = () => {
     setShowModal(true)
-    confetti({
-      particleCount: 100,
-      spread: 90,
-      origin: { y: 0.6 }
-    })
   }
 
   return (
     <>
       <div
         onClick={handleClick}
-        className="fixed bottom-4 right-4 cursor-pointer z-50"
       >
-        <Image
-          src={assets.peepcat}
-          alt=""
-          width={48}
-          height={48}
-        />
+            <a className='cursor-pointer px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 font-outfit text-base hover:bg-lightHover'>
+                my resume
+                <Image src={assets.download_icon} alt='' className='w-4'/>
+            </a>
       </div>
 
       {showModal && (
@@ -40,10 +31,10 @@ const EasterEgg = () => {
               ✕
             </button>
             <br></br>
-            <h2 className="text-xl font-bold mb-2 font-outfit">Surprise!</h2>
-            <p className="text-gray-700">As it turns out, curiousity doesn't kill the cat. So keep being curious!</p>
+            <h2 className="text-xl font-bold mb-2 font-outfit">Sorry about that.</h2>
+            <p className="text-gray-700">I'm working hard on updating my resume. Check back again later!</p>
             <Image
-            src={assets.partycat}
+            src={assets.exercisecat}
             alt=''
             unoptimized
             />
@@ -54,4 +45,4 @@ const EasterEgg = () => {
   )
 }
 
-export default EasterEgg
+export default Progress

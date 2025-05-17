@@ -1,4 +1,4 @@
-import { assets } from '@/assets/assets'
+import { assets } from '@/public/assets/assets'
 import Image from 'next/image'
 import React, { useEffect, useRef, useState } from 'react'
 
@@ -33,11 +33,11 @@ const Navbar = () => {
             <a href='' className='w-28 text-2xl font-medium font-outfit'>Ruchelle.</a>
 
             <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${isScroll ? "" : "bg-white shadow-sm bg-opacity-50" }`}>
-                <li><a className='font-Ovo hover:bg-lightHover rounded' href='#top'>Home</a></li>
-                <li><a className='font-Ovo hover:bg-lightHover' href='#about'>About</a></li>
-                <li><a className='font-Ovo hover:bg-lightHover' href='#tools'>Tools</a></li>
-                <li><a className='font-Ovo hover:bg-lightHover' href='#work'>Work</a></li>
-                <li><a className='font-Ovo hover:bg-lightHover' href='#projects'>Projects</a></li>
+                <li><a className='font-Ovo hover:bg-lightHover p-2 rounded' href='#top'>Home</a></li>
+                <li><a className='font-Ovo hover:bg-lightHover p-2 rounded' href='#about'>About</a></li>
+                <li><a className='font-Ovo hover:bg-lightHover p-2 rounded' href='#tools'>Tools</a></li>
+                <li><a className='font-Ovo hover:bg-lightHover p-2 rounded' href='#work'>Work</a></li>
+                <li><a className='font-Ovo hover:bg-lightHover p-2 rounded' href='#projects'>Projects</a></li>
             </ul>
 
             <div className='flex items-center gap-6'>
