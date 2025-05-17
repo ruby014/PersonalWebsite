@@ -32,7 +32,7 @@ export default function CustomCursor() {
     <Image
       src={currentCursor} 
       alt="Cursor Icon"
-      className="fixed z-50 w-17 h-17"
+      className="fixed z-50 w-17 h-17 z-[9999]"
       style={{
         top: position.y + 10, 
         left: position.x + 10,
