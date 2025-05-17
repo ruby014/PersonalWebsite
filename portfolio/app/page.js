@@ -1,11 +1,11 @@
 'use client'
-import About from "./components/About";
-import EasterEgg from "./components/EasterEgg";
-import Header from "./components/Header";
-import Navbar from "./components/Navbar";
-import Projects from "./components/Projects";
-import Tools from "./components/Tools";
-import Work from "./components/Work";
+import About from "./About";
+import EasterEgg from "./EasterEgg";
+import Header from "./Header";
+import Navbar from "./Navbar";
+import Projects from "./Projects";
+import Tools from "./Tools";
+import Work from "./Work";
 
 export default function Home() {
   return (
