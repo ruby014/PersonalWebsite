@@ -52,6 +52,14 @@ import project8 from './portfolio.png';
 import hoppycat from './hoppy-cat.gif';
 import byecat from './bye-cat.gif';
 import phone from './phone-call.png';
+import peepcat from './cat-peep.jpg'; 
+import partycat from './partycat.gif'; 
+import parlogo from './parlogo.jpeg';
+import testrail from './testrail.jpeg'; 
+import testexecute from './testexecute.png';
+import testcomplete from './testcomplete.png'; 
+import smartgit from './smartgit.svg';
+import whitemail from './white_mail.png';
 
 export const assets = {
     user_image,
@@ -107,7 +115,15 @@ export const assets = {
     catback,
     hoppycat, 
     byecat, 
-    phone
+    phone, 
+    peepcat, 
+    partycat, 
+    parlogo, 
+    testrail, 
+    testexecute,
+    testcomplete, 
+    smartgit, 
+    whitemail
 };
 
 export const projectData = [

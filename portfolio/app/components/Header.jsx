@@ -35,11 +35,11 @@ const Header = () => {
             <a href='#contact' className='group px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2 font-outfit text-base hover:bg-[#FFFFFF] hover:text-black hover:border-gray-500'>
                 contact me
                 <span className='relative w-5 h-5'>
-                <Image src={assets.phone}
+                <Image src={assets.whitemail}
                 alt='' 
                 width={20}
                 height={20}
-                className='absolute inset-0 opacity-100 group-hover:opacity-0 filter invert'/>
+                className='absolute inset-0 opacity-100 group-hover:opacity-0'/>
                 <Image 
                 src='https://www.svgrepo.com/show/521128/email-1.svg'
                 alt=''

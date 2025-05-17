@@ -6,7 +6,7 @@ const Work = () => {
     return (
         <div id='work' className='w-full px-[12%] py-10 scroll-mt-20'>
             <h2 className='text-center text-5xl font-ovo'>Work Experience</h2>
-            <p className='text-center max-w-2xl mx-auto mt-5 mb-5 font-ovo'>
+            <p className='text-center max-w-2xl mx-auto mt-5 mb-10 font-ovo'>
             A quick look at where I’ve been building and breaking things (with intention, of course).
             </p>
 
@@ -29,7 +29,7 @@ const Work = () => {
                     />
                 </a>
                 <a href="https://partech.com/">
-                    <h3 className="font-outfit text-xl mt-1 hover:text-gray-600">PAR Technology</h3>
+                    <h3 className="font-outfit text-xl mt-1 font-medium hover:text-gray-600">PAR Technology</h3>
                 </a>
             </div>
                 <ul className="list-disc list-inside space-y-2 text-left text-sm sm:text-base font-outfit">
@@ -41,47 +41,54 @@ const Work = () => {
                     <li>Learning best practices in test automation and gradually contributing to team goals around quality and efficiency.</li>
                 </ul>
             
-                <div className='flex flex-wrap leading-5 gap-3 mt-4 font-outfit'>
+                <div className='flex flex-wrap leading-5 gap-3 mt-5 font-outfit'>
                 {/** icon #1 */}
                 <div className='relative group'>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" 
+                    <Image 
+                    src={assets.testrail} 
+                    alt=""
                     width={30}/>
           
                     <div className="absolute bottom-full mb-2 hidden group-hover:flex items-center justify-centerz-10">
                         <span className="whitespace-nowrap bg-gray-200 text-xs rounded-md py-1 px-2 text-black font-bold shadow-md dark:bg-gray-500 dark:text-white">
-                        HTML
+                        TestRail
                         </span>
                     </div>
                 </div> 
 
                 {/** icon #2 */}
                 <div className='relative group'>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" 
+                    <Image 
+                    src={assets.testexecute}
+                    alt='' 
                     width={30}/>
           
                     <div className="absolute bottom-full mb-2 hidden group-hover:flex items-center justify-centerz-10">
                         <span className="whitespace-nowrap bg-gray-200 text-xs rounded-md py-1 px-2 text-black font-bold shadow-md dark:bg-gray-500 dark:text-white">
-                        CSS
+                        TestExecute
                         </span>
                     </div>
                 </div> 
 
                 {/* icon 3*/}
                     <div className='relative group'>
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" 
-                        width={30}/>
+                        <Image 
+                        src={assets.testcomplete}
+                        width={30}
+                        alt=""/>
     
                         <div className="absolute bottom-full mb-2 hidden group-hover:flex items-center justify-centerz-10">
                             <span className="whitespace-nowrap bg-gray-100 text-xs rounded-md py-1 px-2 text-black font-medium shadow-md dark:bg-gray-500 dark:text-white">
-                            Tailwind
+                            TestComplete
                             </span>
                         </div>
                     </div>
 
                 {/** icon #4 */}
                 <div className='relative group'>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" 
-                    width={30}/>
+                    <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" 
+                    width={30}
+                    height={30}/>
     
                     <div className="absolute bottom-full mb-2 hidden group-hover:flex items-center justify-centerz-10">
                         <span className="whitespace-nowrap bg-gray-200 text-xs rounded-md py-1 px-2 text-black font-bold shadow-md dark:bg-gray-500 dark:text-white">
@@ -92,39 +99,80 @@ const Work = () => {
 
                 {/** icon #5 */}
                 <div className='relative group'>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-plain.svg" 
-                    width={30}/>
+                    <Image 
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/selenium/selenium-original.svg" 
+                    width={30}
+                    height={30}
+                    />
           
                     <div className="absolute bottom-full mb-2 hidden group-hover:flex items-center justify-centerz-10">
                         <span className="whitespace-nowrap bg-gray-200 text-xs rounded-md py-1 px-2 text-black font-bold shadow-md dark:bg-gray-500 dark:text-white">
-                        Node.js
+                        Selenium
                         </span>
                     </div>
                 </div>     
 
                 {/** icon #6 */}
                 <div className='relative group'>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" 
+                    <img 
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" 
                     width={30}/>
           
                     <div className="absolute bottom-full mb-2 hidden group-hover:flex items-center justify-centerz-10">
                         <span className="whitespace-nowrap bg-gray-200 text-xs rounded-md py-1 px-2 text-black font-bold shadow-md dark:bg-gray-500 dark:text-white">
-                        PostgreSQL
+                        C#
+                        </span>
+                    </div>
+                </div>   
+
+                {/** icon #7 */}
+                <div className='relative group'>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg" 
+                    width={30}/>
+          
+                    <div className="absolute bottom-full mb-2 hidden group-hover:flex items-center justify-centerz-10">
+                        <span className="whitespace-nowrap bg-gray-200 text-xs rounded-md py-1 px-2 text-black font-bold shadow-md dark:bg-gray-500 dark:text-white">
+                        Jenkins
+                        </span>
+                    </div>
+                </div>   
+
+                {/** icon #8 */}
+                <div className='relative group'>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+                    width={30}/>
+          
+                    <div className="absolute bottom-full mb-2 hidden group-hover:flex items-center justify-centerz-10">
+                        <span className="whitespace-nowrap bg-gray-200 text-xs rounded-md py-1 px-2 text-black font-bold shadow-md dark:bg-gray-500 dark:text-white">
+                        AWS EC2
                         </span>
                     </div>
                 </div>  
 
-                {/** icon #7 */}
+                {/** icon #9 */}
                 <div className='relative group'>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" 
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original.svg"
                     width={30}/>
           
                     <div className="absolute bottom-full mb-2 hidden group-hover:flex items-center justify-centerz-10">
                         <span className="whitespace-nowrap bg-gray-200 text-xs rounded-md py-1 px-2 text-black font-bold shadow-md dark:bg-gray-500 dark:text-white">
-                        MongoDB
+                        Jira
                         </span>
                     </div>
-                </div>   
+                </div> 
+
+                {/** icon #10 */}
+                <div className='relative group'>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+                    width={30}/>
+          
+                    <div className="absolute bottom-full mb-2 hidden group-hover:flex items-center justify-centerz-10">
+                        <span className="whitespace-nowrap bg-gray-200 text-xs rounded-md py-1 px-2 text-black font-bold shadow-md dark:bg-gray-500 dark:text-white">
+                        GitHub
+                        </span>
+                    </div>
+                </div> 
+
               </div>
             </div>
             <TypeAnimation 
