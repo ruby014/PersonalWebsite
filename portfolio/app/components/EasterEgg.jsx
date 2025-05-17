@@ -40,8 +40,8 @@ const EasterEgg = () => {
               ✕
             </button>
             <br></br>
-            <h2 className="text-xl font-bold mb-2 font-outfit">🎉 Surprise!</h2>
-            <p className="text-gray-700">It turns out, curiousity doesn't kill the cat. Keep being curious!</p>
+            <h2 className="text-xl font-bold mb-2 font-outfit">Surprise!</h2>
+            <p className="text-gray-700">As it turns out, curiousity doesn't kill the cat. So keep being curious!</p>
             <Image
             src={assets.partycat}
             alt=''
