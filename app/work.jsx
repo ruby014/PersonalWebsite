@@ -2,6 +2,9 @@ import { assets } from "@/assets/assets"
 import Image from "next/image"
 import { TypeAnimation } from "react-type-animation"
 
+import {motion} from 'framer-motion'
+import { fadeIn } from './variants.js'
+
 const Work = () => {
     return (
         <div id='work' className='w-full px-[12%] py-10 scroll-mt-20'>
@@ -10,7 +13,13 @@ const Work = () => {
             A quick look at where I’ve been building and breaking things (with intention, of course).
             </p>
 
-        <div className='grid grid-cols-1 gap-10'>
+        <motion.div
+        variants={fadeIn("up", 0.2)}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{once: false, amount: 0.7}}
+
+        className='grid grid-cols-1 gap-10'>
             <div className='flex flex-col bg-white border border-gray-400 rounded-lg overflow-hidden hover:bg-lightHover hover:-translate-y-2 duration-500 hover:shadow-black p-10'>
             <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center mb-2">
                 <h4 className="text-3xl font-outfit font-medium mb-2">QA Automation Engineer Co-op
@@ -189,7 +198,7 @@ const Work = () => {
             speed={30}
             repeat={Infinity}
             />
-        </div>
+        </motion.div>
         </div>
     )
 }

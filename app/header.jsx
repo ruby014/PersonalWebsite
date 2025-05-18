@@ -2,7 +2,7 @@ import { assets } from '@/assets/assets'
 import Image from 'next/image'
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
-import Progress from './progress'
+// import Progress from './progress'
 
 const Header = () => {
   return (
@@ -53,7 +53,13 @@ const Header = () => {
                 />
                 </span>
             </a>
-            <Progress />
+            {/* <Progress /> */}
+            <a className='cursor-pointer px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 font-outfit text-base hover:bg-lightHover'
+            href='/ruchelle_baybayan_resume.pdf'
+            download>
+                my resume
+                <Image src={assets.download_icon} alt='' className='w-4'/>
+            </a>
         </div>
     </div>
   )
