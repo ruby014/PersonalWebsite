@@ -34,7 +34,7 @@ const Work = () => {
                 </a>
             </div>
                 <ul className="list-disc list-inside space-y-2 text-left text-sm sm:text-base font-outfit">
-                    <li>Automating web and POS test cases using Selenium (C#) and TestComplete (JavaScript) as part of a QA team in an Agile Scrum environment.</li>
+                    <li>Automating POS test cases using Selenium (C#) and TestComplete (JavaScript) as part of a QA team in an Agile Scrum environment.</li>
                     <li>Running smoke and regression tests to help identify bugs early and support product stability.</li>
                     <li>Writing and updating test scripts, with integration into Jenkins pipelines and AWS EC2 environments.</li>
                     <li>Documenting and tracking issues in Jira to support developers and reduce disruptions to active test cases.</li>
