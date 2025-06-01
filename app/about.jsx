@@ -18,11 +18,11 @@ const About = () => {
             </div>
             <div className='flex-1'>
                 <p className='mb-10 max-w-2xl font-ovo'>
-                    I’m an aspiring software developer with a curious mind, a love for building things, and a 
+                    I’m an aspiring software developer with a curious mind and a 
                     background in healthcare that brings a unique perspective to 
-                    problem-solving. I enjoy turning ideas into real, usable applications that prioritize  
-                    <span className='font-bold'> clarity, function,  
-                    </span> and <span className='font-bold'>user experience</span>.
+                    problem-solving. Working in healthcare sharpened my focus on practical, effective solutions that address real needs. I find enjoyment in the process of diving into an idea, figuring out the nuances of how to bring it to life, and turning it into something 
+                    <span className='font-semibold'> practical </span>and
+                    <span className='font-semibold'> meaningful. </span>
                 </p>
                 <ul className='grid grid-cols-1 sm:grid-cols-2 gap-6 w-max-2xl'>
                     {infoList.map(({icon, title, description}, index) => (
