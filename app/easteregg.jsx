@@ -6,12 +6,13 @@ import { assets } from '@/assets/assets'
 
 const EasterEgg = () => {
   const [showModal, setShowModal] = useState(false)
+  const [isHover, setIsHover] = useState(false)
 
   const handleClick = () => {
     setShowModal(true)
     confetti({
-      particleCount: 100,
-      spread: 90,
+      particleCount: 120,
+      spread: 100,
       origin: { y: 0.6 }
     })
   }
@@ -20,13 +21,15 @@ const EasterEgg = () => {
     <>
       <div
         onClick={handleClick}
+        onMouseEnter={() => setIsHover(true)}
+        onMouseLeave={() => setIsHover(false)}
         className="fixed bottom-4 right-4 cursor-pointer z-50"
       >
         <Image
-          src={assets.peepcat}
+          src={isHover ? assets.catquestion : assets.peepcat}
           alt=""
-          width={48}
-          height={48}
+          width={55}
+          height={55}
         />
       </div>
 
