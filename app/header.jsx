@@ -55,7 +55,7 @@ const Header = () => {
             </a>
             {/* <Progress /> */}
             <a className='cursor-pointer px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 font-outfit text-base hover:bg-lightHover'
-            href='/ruchelle_baybayan_resume.pdf'
+            href='/ruchelle_resume.pdf'
             download>
                 my resume
                 <Image src={assets.download_icon} alt='' className='w-4'/>
