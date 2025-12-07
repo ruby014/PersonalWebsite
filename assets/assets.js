@@ -61,7 +61,6 @@ import smartgit from './smartgit.svg';
 import whitemail from './white_mail.png';
 import exercisecat from './exercisecat.gif'; 
 import catquestion from './cap-peep-copy.jpg';
-import flower from './flower.gif'; 
 import dayforcelogo from './dayforce_logo.jpeg';
 
 export const assets = {
@@ -128,7 +127,6 @@ export const assets = {
     whitemail, 
     exercisecat, 
     catquestion, 
-    flower, 
     dayforcelogo
 };
 
