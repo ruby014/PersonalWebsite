@@ -62,6 +62,7 @@ import whitemail from './white_mail.png';
 import exercisecat from './exercisecat.gif'; 
 import catquestion from './cap-peep-copy.jpg';
 import dayforcelogo from './dayforce_logo.jpeg';
+import dogandgirl from './dog-and-i.png';
 
 export const assets = {
     user_image,
@@ -127,7 +128,8 @@ export const assets = {
     whitemail, 
     exercisecat, 
     catquestion, 
-    dayforcelogo
+    dayforcelogo, 
+    dogandgirl
 };
 
 export const projectData = [

@@ -12,12 +12,12 @@ const About = () => {
         <div className='flex w-full flex-col lg:flex-row items-center gap-20 my-20'>
             <div className='w-64 sm:w-80 rounded-3xl max-w-none'>
                 <Image 
-                src={assets.profile_img} 
+                src={assets.dogandgirl} 
                 alt='user' 
                 className='w-full rounded-3xl'/>
             </div>
             <div className='flex-1'>
-                <p className='mb-10 max-w-2xl font-ovo'>
+                <p className='mb-10 font-ovo'>
                     I’m an aspiring software developer with a curious mind and a 
                     background in healthcare that brings a unique perspective to 
                     problem-solving. Working in healthcare sharpened my focus on practical, effective solutions that address real needs. I find enjoyment in the process of diving into an idea, figuring out the nuances of how to bring it to life, and turning it into something 
