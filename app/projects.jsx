@@ -165,7 +165,7 @@ const Projects = () => {
             {/* project title, description, tech stack */}
             <div className='flex-1 p-5 font-outfit'>
               <h2 className='text-2xl font-semibold mb-2'>Portfolio</h2>
-              <p className='text-gray-600 text-sm mb-3'>A portfolio of my experiences, accompanied by cute cat friends. Can you find the 4th cat?</p>
+              <p className='text-gray-600 text-sm mb-3'>A portfolio of my experiences, accompanied by cute cat friends. Can you find the secret cat? </p>
               {/* container to hold the icons */}
               <div className='flex flex-wrap leading-5 gap-2'>
                 {/** icon #1 */}
@@ -243,7 +243,7 @@ const Projects = () => {
             {/* project title, description, tech stack */}
             <div className='flex-1 p-5 font-outfit'>
               <h2 className='text-2xl font-semibold mb-2'>Coffee Cloud Cafe</h2>
-              <p className='text-gray-600 text-sm mb-3'>My first ever full-stack application — a cozy cafe management app built with love and lots of coffee!</p>
+              <p className='text-gray-600 text-sm mb-3'>My first ever full-stack application, a cozy cafe management app built with love and lots of coffee!</p>
               {/* container to hold the icons */}
               <div className='flex flex-wrap leading-5 gap-2'>
                 {/** icon #1 */}
@@ -589,7 +589,7 @@ const Projects = () => {
             {/* project title, description, tech stack */}
             <div className='flex-1 p-5 font-outfit'>
               <h2 className='text-2xl font-semibold mb-2'>BiteByte</h2>
-              <p className='text-gray-600 text-sm mb-3'>Designed at my first hackathon, ElleHacks, my very wonderful and sleep deprived teammates and I created a wireframe for an app that enables diabetic seniors to make healthier decisions.</p>
+              <p className='text-gray-600 text-sm mb-3'>Designed at my first hackathon, my teammates and I created a wireframe for an app that enables diabetic seniors to make healthier decisions.</p>
               {/* container to hold the icons */}
               <div className='flex flex-wrap leading-5 gap-2'>
                 {/** icon #1 */}
