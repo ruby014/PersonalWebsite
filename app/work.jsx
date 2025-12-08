@@ -37,6 +37,7 @@ const Work = () => {
                     <li>Enhanced a modal with ML-powered proficiency and recommendation insights, helping new users understand and select recommended skills.</li>
                     <li>Developing a conditional skill-tagging feature using ML insights, highlighting skills that match or complement users’ profiles.</li>
                     <li>Boosted automated test coverage to 80%+ across two frontend projects with Jest, improving reliability and confidence in releases.</li>
+                    <li>Resolved Sev-2 and Sev-3 tickets in both frontend and backend projects, identifying root causes and delivering timely fixes.</li>
                     <li>Collaborate in Agile/Scrum teams with developers, QA, and product managers to deliver features on schedule.</li>
                 </ul>
 
