@@ -33,7 +33,7 @@ const Header = () => {
             computer programming student based in Toronto.
         </h1>
         <p className='max-w-2xl text-base mx-auto font-Ovo'>
-            Carrying a unique blend of experience from healthcare to tech — I enjoy building impactful and user-focused software.
+            Carrying a unique blend of experience from healthcare to tech, I enjoy building impactful and user-focused software.
         </p>
         <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
             <a href='https://www.linkedin.com/in/ruby014/' className='group px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2 font-outfit text-base hover:bg-[#FFFFFF] hover:text-black hover:border-gray-500'>
